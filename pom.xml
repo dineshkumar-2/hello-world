@@ -26,8 +26,12 @@
         <name>a0mbn7dziujup-artifactory-primary-0-releases</name>
         <url>https://devopsartifact.jfrog.io/artifactory/default-libs-release-local</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0mbn7dziujup-artifactory-primary-0-snapshots</name>
+        <url>https://devopsartifact.jfrog.io/artifactory/default-libs-snapshot-local</url>
+    </snapshotRepository>
 </distributionManagement>
-
   <build>
     <plugins>
       <plugin>
